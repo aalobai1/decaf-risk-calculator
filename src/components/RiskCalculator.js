@@ -6,10 +6,10 @@ import React from 'react'
         <div>
         <h2>Decaf Score</h2>
         <button onClick={props.calculate}>Calculate</button>
-        <p>{props.DECAFScore}</p>
-        <p>{props.risk}</p>
-        <p>{props.hospitalMortality}</p>
-        <p>{props.care}</p>
+        <p>Decaf Score: {props.DECAFScore}</p>
+        <p>Risk: {props.risk}</p>
+        <p>Hospital Mortality: {props.hospitalMortality}</p>
+        <p>Care: {props.care}</p>
         </div>
     )
 
