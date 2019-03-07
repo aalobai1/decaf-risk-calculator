@@ -4,7 +4,6 @@ import React from 'react'
     const RiskCalculator2 = (props) => (
             <div>
             <h2>Decaf Score</h2>
-            <button onClick={props.calculateDecafScore}>Calculate</button>
             <p>Decaf Score: {props.decafScore}</p>
             <p>Risk: {props.risk}</p>
             <p>Hospital Mortality: {props.hospitalMortality}</p>
