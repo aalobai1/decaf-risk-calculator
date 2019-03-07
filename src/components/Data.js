@@ -13,13 +13,13 @@ const decafScore = {
     },
     "2" : {
         hospitalMortality: "5.4% in hospital mortality",
-    risk: "Intermediate",
-       cre : "Use clinician judgement re: disposition"
+        risk: "Intermediate",
+        care : "Use clinician judgement re: disposition"
     },
     "3" : {
         hospitalMortality: "15.3% in hospital mortality",
-    risk: "High",
-       cre : "Consider escalation of vs. palliative care"
+        risk: "High",
+        care : "Consider escalation of vs. palliative care"
     },
     "4" : {
         hospitalMortality : "31% in hospital mortality",
