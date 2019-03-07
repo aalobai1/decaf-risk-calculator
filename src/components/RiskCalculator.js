@@ -13,6 +13,7 @@ import decafScore from './Data'
             }
         }
 
+      
 
         calculateDecafScore = () => {
             const DECAFScore = (this.props.emrcd + this.props.eosinopenia + this.props.chestXrayCons + this.props.acidemia + this.props.atrialFib)
@@ -92,7 +93,7 @@ import decafScore from './Data'
         render = () => (
             <div>
             <h2>Decaf Score</h2>
-            
+            <button onClick={this.calculateDecafScore}>Calculate</button>
             <p>Decaf Score: {this.state.decafScore}</p>
             <p>Risk: {this.state.risk}</p>
             <p>Hospital Mortality: {this.state.hospitalMortality}</p>
